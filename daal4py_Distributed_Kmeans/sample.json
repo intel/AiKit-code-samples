@@ -1,0 +1,7 @@
+{
+  "name": "Distributed K-Means",
+  "categories": ["Toolkit/Intel® AI Analytics Toolkit/oneDAL"],
+  "description": "This sample code shows how to train and predict with a distributed k-means model using the python API package daal4py for oneDAL",
+  "builder": ["cli"],
+  "languages": [{"python":{}}]
+}

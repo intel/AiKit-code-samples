@@ -27,7 +27,8 @@ TensorFlow is ready for use once you finish the Intel AI Analytics Toolkit insta
 
 You can refer to the oneAPI [main page](https://software.intel.com/en-us/oneapi) for toolkit installation, and the Toolkit [Getting Started Guide for Linux](https://software.intel.com/en-us/get-started-with-intel-oneapi-linux-get-started-with-the-intel-ai-analytics-toolkit) for post-installation steps and scripts.
 
-## Activate conda environment
+
+## Activate conda environment With Root Access
 
 Please follow the Getting Started Guide steps (above) to set up your oneAPI environment with the setvars.sh script. Then navigate in linux shell to your oneapi installation path, typically `~/intel/inteloneapi`. Activate the conda environment with the following command:
 
@@ -36,13 +37,27 @@ Please follow the Getting Started Guide steps (above) to set up your oneAPI envi
 source activate tensorflow
 ```
 
-
 please replace ~/intel/inteloneapi for your oneapi installation path.
+
+## Activate conda environment Without Root Access (Optional)
+
+By default, the Intel AI Analytics toolkit is installed in the inteloneapi folder, which requires root privileges to manage it. If you would like to bypass using root access to manage your conda environment, then you can clone your desired conda environment using the following command:
+
+#### Linux
+```
+conda create --name user_tensorflow --clone tensorflow
+```
+
+Then activate your conda environment with the following command:
+
+```
+source activate user_tensorflow
+```
 
 ## How to Build and Run 
 To run the program on Linux*, Windows* and MacOS*, type the following command in the terminal with Python installed:
 ```
-    python TensorFlow_Hello_World.py
+    python TensorFlow_HelloWorld.py
 ```
 
 With successful execution, it will print out the following results:

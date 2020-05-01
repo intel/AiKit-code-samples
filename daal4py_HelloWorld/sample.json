@@ -3,5 +3,6 @@
   "categories": ["Toolkit/Intel® AI Analytics Toolkit/oneDAL"],
   "description": "This Hello World sample code show how to do batch linear regression using the python API package daal4py for oneDAL",
   "builder": ["cli"],
-  "languages": [{"python":{}}]
+  "languages": [{"python":{}}],
+  "os":["linux"]
 }

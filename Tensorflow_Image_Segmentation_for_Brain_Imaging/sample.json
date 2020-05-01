@@ -1,7 +1,0 @@
-{
-  "name": "Image segmentation brain imaging",
-  "categories": ["Toolkit/Intel® AI Analytics Toolkit/TensorFlow"],
-  "description": "This code example shows you how to build image segmentaion use case with Unet using BraTs dataset",
-  "builder": ["cli"],
-  "languages": [{"python":{}}]
-}

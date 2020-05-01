@@ -8,12 +8,16 @@
  SPDX-License-Identifier: MIT
 ==============================================================
 '''
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 import sys
 
+
+tf.disable_v2_behavior()
+
+
 '''
-Enviornment settings:
+Environment settings:
 Set MKLDNN_VERBOSE=1 to show DNNL run time verbose
 Set KMP_AFFINITY=verbose to show OpenMP thread information
 '''
@@ -22,7 +26,8 @@ import os; os.environ["KMP_AFFINITY"] = "granularity=fine,compact,1,0"
 '''
 Sanity Check: once Intel-optimized TensorFlow is installed, Intel DNNL optimizations are present by default.
 '''
-print("Intel DNNL optimizations are present : ", tf.pywrap_tensorflow.IsMklEnabled())
+#TODO for TF2.0
+#print("Intel DNNL optimizations are present : ", tf.pywrap_tensorflow.IsMklEnabled())
 
 '''
 learning_rate = 0.1

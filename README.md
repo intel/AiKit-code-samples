@@ -21,6 +21,7 @@ Ai Analytics Toolkit contains different examples listed in below table:
 | Component | Tensorflow Hello World                                       | Python      |
 | Component | PyTorch Hello World                                          | Python      |
 | Component | Tensorflow ResNet50 Inference                                | Python      |
+| Component | Intel Model Zoo                                              | Python      |
 | Component | oneAPI Data Analytics Library Hello World                                             | Python      |
 | Component | TensorFlow with int 8                                        | Python      |
 | Segment   | Distributed Linear Regression using oneAPI Data Analytics Library                     | Python      |

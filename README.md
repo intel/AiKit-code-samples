@@ -1,5 +1,5 @@
 # Intel(R) AI Analytics Toolkit Samples
-These code samples are built to support the [Intel(R) AI Analytics Toolkit](https://software.intel.com/en-us/oneapi/ai-kit) powered by oneAPI.
+**This repo has been deprecated, please use new open source repo at the [new](https://github.com/oneapi-src/oneAPI-samples ) location.**
 
 
 ## AI Analytics Toolkit Features
@@ -14,18 +14,6 @@ Python has become the most popular and fastest growing programming language for 
 ### Data Analytics
 Implement data science and analytics pipelines—preprocessing through machine learning—and scale-out efficiently using the high-performing oneAPI Data Analytics Library, part of the foundational Intel(R) oneAPI Base Toolkit. The library’s set of high-speed algorithms (such as analysis functions, math functions, and training and prediction functions) enable applications to analyze large data sets with available compute resources and make better predictions faster.
 
-Ai Analytics Toolkit contains different examples listed in below table:
-
-| Type      | Name                                                         | Language |
-| --------- | ------------------------------------------------------------ | ----------- |
-| Component | Tensorflow Hello World                                       | Python      |
-| Component | PyTorch Hello World                                          | Python      |
-| Component | Tensorflow ResNet50 Inference                                | Python      |
-| Component | Intel Model Zoo                                              | Python      |
-| Component | oneAPI Data Analytics Library Hello World                                             | Python      |
-| Component | TensorFlow with int 8                                        | Python      |
-| Segment   | Distributed Linear Regression using oneAPI Data Analytics Library                     | Python      |
-| Segment   | Distributed K-means using oneAPI Data Analytics Library                               | Python      |
 
 
 ## 
